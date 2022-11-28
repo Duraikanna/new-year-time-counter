@@ -1,0 +1,34 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(sample.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.count{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 20px;
+    
+}
+#secounds{
+    color: rgba(255, 0, 0, 0.473);
+}
